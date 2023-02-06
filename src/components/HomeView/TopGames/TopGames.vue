@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <h1>Top {{ num_games }} Games</h1>
+            <h1>Most Searched Games</h1>
         </div>
         <div class="top-games">
             <div v-for="game in top_games">
