@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    flex-basis: 10%;
+    width: 100%;
+    background-color: #1B1F22;
+    border-bottom: 4px solid #111;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 15px 5%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav #routes {
+    margin: auto;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.form-group-search {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.form-group-search > input {
+    border-radius: 25px;
+}
+
+.form-group-search > button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #343642;
+    cursor: pointer;
+    border: 1px solid #111;
+    color: white
+}
+
+#gameSearch {
+    width: 100px;
+    padding: 15px;
+    background-color: #343642;
+    border: 1px solid #111;
+    color: white;
+}
+
+img {
+    border-radius: 15px;
+    width: 70px;
+    height: 100%
+}

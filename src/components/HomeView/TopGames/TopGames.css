@@ -1,0 +1,25 @@
+.top-games {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15px;
+}
+
+.top-games > div {
+	width: 300px;
+	height: 300px;
+	white-space: nowrap;
+}
+
+img {
+	width: 300px;
+	height: 160px;
+	border-radius: 15px;
+}
+
+h1 {
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

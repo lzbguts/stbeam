@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Nunito&family=Ubuntu&family=Montserrat&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #343642;
+    color: white;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    margin: 10px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2c7133;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80%;
+}

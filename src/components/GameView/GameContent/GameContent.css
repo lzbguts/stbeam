@@ -1,0 +1,29 @@
+.game-content {
+    border: 2px solid #111;
+    border-radius: 15px;
+    padding: 70px 40px;
+    background-color: #1B1F22;
+}
+
+.game-content > div > div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.game-content > div > p > span {
+    font-weight: bold;
+}
+
+.total {
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.total > .btn-informacao {
+    background-color: blue;
+}
+
+.total > p {
+    font-size: 25px !important;
+}
