@@ -68,9 +68,9 @@ export default {
             const req = await fetch(`${this.$stbeamAPI}/games/${id}`);
             const data = await req.json();
 
-            if (data[id].success == false) { this.$router.push("/404"); return; }
+            if (data.success == false) { this.$router.push("/404"); return; }
 
-            const dados = data[id].data;
+            const dados = data.data;
 
             if (dados.is_free) {
                 this.preco_brl = 0;
