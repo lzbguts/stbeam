@@ -5,10 +5,10 @@
         </div>
         <div class="top-games">
             <div v-for="game in top_games">
-                <a :href="`http://localhost:5173/games/${game._id}`">
+                <RouterLink :to="`/games/${game._id}`">
                     <img :src="`https://cdn.akamai.steamstatic.com/steam/apps/${game._id}/header.jpg`" alt="">
                     <h1>{{ game.name }}</h1>
-                </a>
+                </RouterLink>
             </div>
         </div>
 
@@ -16,8 +16,13 @@
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
+
 export default {
     name: "TopGames",
+    components: {
+        RouterLink
+    },
     data() {
         return {
             num_games: 10,
@@ -26,7 +31,7 @@ export default {
     },
     methods: {
         async getTop(num) {
-            const req = await fetch(`http://localhost:3000/top/${num}`);
+            const req = await fetch(`${this.$stbeamAPI}/top/${num}`);
             const data = await req.json();
 
             this.top_games = data;

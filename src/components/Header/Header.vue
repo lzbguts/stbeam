@@ -5,8 +5,8 @@
                 <RouterLink to="/">
                     <img src="/logo.png" alt="Logo">
                 </RouterLink>
-                <RouterLink to="/"><a class="home">Home</a></RouterLink>
-                <RouterLink to="/about"><a class="home">Sobre</a></RouterLink>
+                <RouterLink to="/">Home</RouterLink>
+                <RouterLink to="/about">Sobre</RouterLink>
             </div>
             <form class="form-group-search">
                 <input type="text" name="gameSearch" id="gameSearch" placeholder="AppID" v-model="search_field">
