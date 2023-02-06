@@ -1,7 +1,8 @@
 <template>
     <div>
         <div>
-            <h1>Most Searched Games</h1>
+            <h1 v-if="!isLoaded">Carregando API...</h1>
+            <h1 v-else>Jogos Mais Pesquisados</h1>
         </div>
         <div class="top-games">
             <div v-for="game in top_games">
@@ -26,7 +27,8 @@ export default {
     data() {
         return {
             num_games: 10,
-            top_games: []
+            top_games: [],
+            isLoaded: false
         }
     },
     methods: {
@@ -35,6 +37,7 @@ export default {
             const data = await req.json();
 
             this.top_games = data;
+            this.isLoaded = true;
         }
     },
     mounted() {
