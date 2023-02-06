@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <h1 v-if="!isLoaded">Carregando API...</h1>
+            <SplashScreen v-if="!isLoaded" />
             <h1 v-else>Jogos Mais Pesquisados</h1>
         </div>
         <div class="top-games">
@@ -18,11 +18,13 @@
 
 <script>
 import { RouterLink } from 'vue-router';
+import SplashScreen from '../../SplashScreen/SplashScreen.vue';
 
 export default {
     name: "TopGames",
     components: {
-        RouterLink
+        RouterLink,
+        SplashScreen
     },
     data() {
         return {
