@@ -1,8 +1,5 @@
 <template>
     <div class="container-main">
-        <div class="ad">
-            <SideAd/>
-        </div>
         <div>
             <div v-show="!isLoading" class="game-info">
                 <a :href="url_game"><img :src="img" :alt="nome"></a>
@@ -13,23 +10,18 @@
                 <SplashScreen />
             </div>
         </div>
-        <div class="ad">
-            <SideAd/>
-        </div>
     </div>
 </template>
 
 <script>
 import GameContent from '../../components/GameView/GameContent/GameContent.vue';
 import SplashScreen from '../../components/SplashScreen/SplashScreen.vue';
-import SideAd from '../../components/Ads/SideAd.vue';
 
 export default {
     name: "GameView",
     components: {
         GameContent,
-        SplashScreen,
-        SideAd
+        SplashScreen
     },
     data() {
         return {
