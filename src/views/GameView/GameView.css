@@ -12,3 +12,9 @@ img {
     flex-direction: row;
     gap: 25%;
 }
+
+.ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -14,7 +14,7 @@
 
 <script>
     export default {
-        name: "Ads"
+        name: "SideAd"
     }
 </script>
 
