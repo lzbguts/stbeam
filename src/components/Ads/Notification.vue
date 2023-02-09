@@ -14,7 +14,7 @@ export default {
             adScript.async = 'async'
             adScript.defer = 'defer'
             adScript.charset = 'utf-8'
-            adScript.setAttribute('src', './SideAd.js')
+            adScript.setAttribute('src', './Notification.vue')
             document.head.appendChild(adScript)
         }
     },
