@@ -23,21 +23,13 @@
   margin-right: 30px;
 }
 
-:deep(.popper) {
-  background: #333333;
-  padding: 20px;
-  border-radius: 20px;
-  color: #fff;
-  font-weight: bold;
-  font-family: 'Nunito', sans-serif;
-  text-transform: uppercase;
-}
-
-:deep(.popper #arrow::before) {
-  background: #333333;
-}
-
-:deep(.popper:hover),
-:deep(.popper:hover > #arrow::before) {
-  background: #333333;
+.dark {
+  --popper-theme-background-color: #333333;
+  --popper-theme-background-color-hover: #333333;
+  --popper-theme-text-color: white;
+  --popper-theme-border-width: 0px;
+  --popper-theme-border-radius: 6px;
+  --popper-theme-padding: 32px;
+  --popper-theme-box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
+  font-family: 'Poppins', sans-serif;
 }
