@@ -104,7 +104,7 @@ export default {
             this.preco_mercado = fTR.format((preco_steam * brl_to_try).toFixed(2));
             this.preco_total = fBR.format((preco_steam + ((preco_steam * 0.0538) * 2)).toFixed(2));
 
-            this.$emit("recursos", { nome: dados.nome, img: dados.img, id });
+            this.$emit("recursos", { nome: dados.nome, img: dados.img, screenshots: dados.screenshots, id: id });
         }
     },
     mounted() {
