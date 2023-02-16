@@ -74,7 +74,7 @@ export default {
 
             if (dados.is_free) {
                 this.preco_brl = 0;
-                this.$emit("recursos", { nome: dados.nome, img: dados.img, id });
+                this.$emit("recursos", { nome: dados.nome, img: dados.img, screenshots: dados.screenshots, id: id });
                 this.is_free = true;
                 return;
             }
