@@ -7,7 +7,7 @@
                 </RouterLink>
                 <RouterLink to="/" class="nav-home">Home</RouterLink>
                 <RouterLink to="/about">Sobre</RouterLink>
-                <a href="//nossairt.net/4/5708759" class="nav-ad">AD</a>
+                <RouterLink to="/random">Random</RouterLink>
             </div>
             <form class="form-group-search">
                 <input type="text" name="gameSearch" id="gameSearch" placeholder="AppID" v-model="search_field">

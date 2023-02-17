@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView/HomeView.vue';
 import GameView from '../views/GameView/GameView.vue';
 import NotFoundView from '../views/NotFoundView/NotFoundView.vue';
 import AboutView from '../views/AboutView/AboutView.vue';
+import Random from '../components/Random/Random.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: AboutView
+    },
+    {
+      path: '/random',
+      name: 'random',
+      component: Random
     }
   ]
 });
