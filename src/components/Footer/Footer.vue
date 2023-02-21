@@ -9,7 +9,7 @@
                 <a href="https://www.linkedin.com/in/gustavo-felicidade-a6b60523a/" id="linkedin">
                     <font-awesome-icon icon="fa-brands fa-linkedin" size="2x" />
                 </a>
-                <a href="https://github.com/gutsfer" id="github">
+                <a href="https://github.com/lzbguts" id="github">
                     <font-awesome-icon icon="fa-brands fa-github" size="2x" />
                 </a>
                 <a href="https://www.instagram.com/lzbguts/" id="instagram">
