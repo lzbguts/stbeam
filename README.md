@@ -6,6 +6,10 @@
 npm install
 ```
 
+### Create the .env file with the variables:
+VITE_STBEAM_API=
+VITE_EXCHANGE_API=
+
 ### Compile and Hot-Reload for Development
 
 ```sh

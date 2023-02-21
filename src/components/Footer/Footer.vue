@@ -6,7 +6,7 @@
                 <h1>© guts 2023.</h1>
             </div>
             <div class="social">
-                <a href="https://www.linkedin.com/in/gustavo-felicidade-a6b60523a/" id="linkedin">
+                <a href="https://www.linkedin.com/in/lzbguts/" id="linkedin">
                     <font-awesome-icon icon="fa-brands fa-linkedin" size="2x" />
                 </a>
                 <a href="https://github.com/lzbguts" id="github">
