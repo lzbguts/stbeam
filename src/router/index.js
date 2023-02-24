@@ -1,8 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView/HomeView.vue';
-import GameView from '../views/GameView/GameView.vue';
-import NotFoundView from '../views/NotFoundView/NotFoundView.vue';
-import AboutView from '../views/AboutView/AboutView.vue';
+import { HomeView, GameView, NotFoundView, AboutView } from '../views'
 import Random from '../components/Random/Random.vue';
 
 const router = createRouter({
